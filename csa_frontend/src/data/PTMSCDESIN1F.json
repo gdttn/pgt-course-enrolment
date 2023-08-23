@@ -1,0 +1,58 @@
+{
+    "course_name": "Design Informatics (MSc) (Full-time)",
+    "course_code": "PTMSCDESIN1F",
+    "year": "2023/24",
+    "diet_note": "Before making your course choices, make sure you have discussed them with your Personal Tutor.",
+    "compulsory_courses": {
+        "1": "INFR11094",
+        "2": "DESI11025",
+        "3": "INFR11097",
+        "4": "DESI11073",
+        "5": "DESI11100",
+        "6": "INFR11147"
+    },
+    "compulsory_courses_total_credit": 150,
+    "optional_courses_total_credit": 30,
+    "optional_courses": {
+        "1": {
+            "course_type": "Informatics MSc S2 Design Informatics Courses",
+            "course_note": "These are Semester 2 optional Design Informatics courses open to taught postgraduate students.",
+            "credit_range": {
+                "min_credit": 0,
+                "max_credit": 30
+            },
+            "courses": {
+                "1": "INFR11158",
+                "2": "INFR11206"
+            }
+        },
+        "2": {
+            "course_type": "Informatics MSc DI Level 11 Courses",
+            "course_note": "These are other relevant level 11 Informatics courses open to postgraduate students. Please check that your background is suited to the course before registering.",
+            "credit_range": {
+                "min_credit": 0,
+                "max_credit": 30
+            },
+            "courses": {
+                "1": "INFR11010",
+                "2": "INFR11033",
+                "3": "INFR11132",
+                "4": "INFR11140",
+                "5": "INFR11160",
+                "6": "INFR11208",
+                "7": "INFR11241",
+                "8": "INFR11246"
+            }
+        }
+    },
+    "optional_courses_levls": {
+        "1": {
+            "course_type": "Level 10 and 11 courses in Schedules A to Q, T, W and Y",
+            "course_note": "These are courses in all Schools other than Medicine, Veterinary Studies, or the Centre for Open Learning. Note this includes courses within the School of Informatics.  Students may not register for introductory programming courses in other parts of the University unless explicitly listed in the DPT.",
+            "credit_range": {
+                "min_credit": 0,
+                "max_credit": 30
+            }
+        }
+    }
+}

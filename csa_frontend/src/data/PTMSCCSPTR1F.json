@@ -1,0 +1,71 @@
+{
+    "course_name": "Cyber Security, Privacy and Trust (MSc) - 1 Year (Full-time)",
+    "course_code": "PTMSCCSPTR1F",
+    "year": "2023/24",
+    "diet_note": "Before making your course choices make sure you have discussed them with your Student Adviser, or someone in your student support team.\n\nNOTE: This programme is available to study part-time. Part-time students must complete the same requirements as full-time students over two academic years with the following rules: Informatics Research Review INFR11136 (IRR) must be completed in Year 1, and Informatics Project Proposal INFR11147 (IPP) must be completed during Year 2. The dissertation will be completed in Block 5+ of Year 2 after progression to the dissertation stage has been confirmed by the Board of Examiners.",
+    "compulsory_courses": {
+        "1": "INFR11077",
+        "2": "INFR11147",
+        "3": "INFR11136",
+        "4": "INFR11244"
+    },
+    "compulsory_courses_total_credit": 100,
+    "optional_courses_total_credit": 80,
+    "optional_courses": {
+        "1": {
+            "course_type": "Informatics MSc CSPT Security Related Technical Courses",
+            "course_note": "",
+            "credit_range": {
+                "min_credit": 40,
+                "max_credit": 80
+            },
+            "courses": {
+                "1": "INFR11098",
+                "2": "INFR11131",
+                "3": "INFR11144",
+                "4": "INFR11158",
+                "5": "INFR11187",
+                "6": "INFR11208",
+                "7": "INFR11240"
+            }
+        },
+        "2": {
+            "course_type": "Informatics MSc CSPT Security and Privacy in Society Courses",
+            "course_note": "",
+            "credit_range": {
+                "min_credit": 0,
+                "max_credit": 40
+            },
+            "courses": {
+                "1": "INFR11206",
+                "2": "PGSP11162",
+                "3": "PGSP11467"
+            }
+        },
+        "3": {
+            "course_type": "Informatics MSc CSPT Other Level 11 Options",
+            "course_note": "These are other relevant level 11 Informatics courses open to postgraduate students.",
+            "credit_range": {
+                "min_credit": 0,
+                "max_credit": 40
+            },
+            "courses": {
+                "1": "INFR11017",
+                "2": "INFR11020",
+                "3": "INFR11088",
+                "4": "INFR11099",
+                "5": "INFR11129",
+                "6": "INFR11134",
+                "7": "INFR11150",
+                "8": "INFR11172",
+                "9": "INFR11199",
+                "10": "INFR11201",
+                "11": "INFR11202",
+                "12": "INFR11211",
+                "13": "INFR11214",
+                "14": "INFR11242"
+            }
+        }
+    },
+    "optional_courses_levls": {}
+}

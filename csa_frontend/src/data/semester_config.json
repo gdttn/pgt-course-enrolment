@@ -1,0 +1,39 @@
+{
+  "total_semester_credit": 120,
+  "semester_min_max_values": {
+    "sem01_min": 10,
+    "sem01_max": 10,
+    "sem02_min": 10,
+    "sem02_max": 10
+  },
+  "type": {
+    "Semester 1": {
+      "sem01": 1,
+      "sem02": 0
+    },
+    "Semester 2": {
+      "sem01": 0,
+      "sem02": 1
+    },
+    "Full Year": {
+      "sem01": 0.5,
+      "sem02": 0.5
+    },
+    "Block 5 (Sem 2) and beyond": {
+      "sem01": 0,
+      "sem02": 1
+    },
+    "Block 4 (Sem 2)": {
+      "sem01": 0,
+      "sem02": 1
+    },
+    "Block 3 (Sem 2)": {
+      "sem01": 0,
+      "sem02": 1
+    },
+    "Flexible": {
+      "sem01": 0.5,
+      "sem02": 0.5
+    }
+  }
+}

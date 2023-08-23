@@ -1,0 +1,55 @@
+{
+    "course_name": "High Performance Computing with Data Science (MSc) (Full-time)",
+    "course_code": "PTMSCHPCDS1F",
+    "year": "2023/24",
+    "diet_note": "Students should meet with a member of the EPCC Student Support Team to discuss their course choices. The EPCC Student Support Team are able to provide guidance and support to students for course selections.\n\nAll optional course choices are subject to students meeting (and demonstrating that they meet/will meet) the prerequisite requirements of courses they wish to take. Course choices must be approved by a member of the EPCC Student Support Team (student.support@epcc.ed.ac.uk or your cohort lead/programme director).\n\nStudents are strongly recommended to balance their credit-load evenly between Semester 1 and Semester 2 (n.b. although EPCC11008 Project Preparation takes place over two Semesters the workload is almost entirely located within Semester 2). It would be very uncommon for the EPCC Student Support Team to approve an imbalanced creditload split: Semester 1's courses are very important for building a solid foundation in the core concepts underpinning the programmes and Semester 2's courses generally contain more advanced material building on those foundations.\n\nProgramme-specific progression requirements require students to pass (at the 50% level) at least three of the following courses: EPCC11002 - Message-passing Programming, EPCC11003 - Threaded Programming, EPCC11004 - HPC Architectures, EPCC11010 - Parallel Design Patterns, EPCC11012 - Advanced Message-passing Programming, EPCC11011 - Advanced Parallel Techniques.\n\nConcessions to the Degree Programme Table may be possible, e.g. to take a specific course not listed below due to specific interests, or removing a compulsory course where equivalent prior learning has been completed, and will be judged on a case-by-case basis. A concession to the DPT cannot be guaranteed in advance.",
+    "compulsory_courses": {
+        "1": "EPCC11002",
+        "2": "EPCC11003",
+        "3": "EPCC11001",
+        "4": "EPCC11008",
+        "5": "EPCC11005",
+        "6": "EPCC11014",
+        "7": "INFR11164"
+    },
+    "compulsory_courses_total_credit": 130,
+    "optional_courses_total_credit": 50,
+    "optional_courses": {
+        "1": {
+            "course_type": "HPC with Data Science Optional HPC Courses",
+            "course_note": "",
+            "credit_range": {
+                "min_credit": 20,
+                "max_credit": 50
+            },
+            "courses": {
+                "1": "EPCC11004",
+                "2": "EPCC11006",
+                "3": "EPCC11007",
+                "4": "EPCC11009",
+                "5": "EPCC11010",
+                "6": "EPCC11011",
+                "7": "EPCC11012"
+            }
+        },
+        "2": {
+            "course_type": "HPC with Data Science Optional Data Science Courses",
+            "course_note": "Please note these are optional courses primarily designed for students on other programmes. Entry to these courses is dependent on students meeting (and being able to demonstrate that they meet) the course prerequisite requirements and there being spaces available. Speak to the EPCC Student Support Team in the first instance if you have queries about this.  N.B. Some of these courses are owned by School of Informatics not EPCC and in a specific academic year specific courses cannot be guaranteed to run due to availability of staff and teaching resources within the School of Informatics.",
+            "credit_range": {
+                "min_credit": 0,
+                "max_credit": 30
+            },
+            "courses": {
+                "1": "EPCC11013",
+                "2": "INFR11010",
+                "3": "INFR11088",
+                "4": "INFR11132",
+                "5": "INFR11134",
+                "6": "INFR11140",
+                "7": "INFR11145",
+                "8": "INFR11160"
+            }
+        }
+    },
+    "optional_courses_levls": {}
+}

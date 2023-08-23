@@ -1,0 +1,22 @@
+version: "1"
+services:
+  frontend:
+    build: ./csa_frontend
+    container_name: csa_frontend
+    ports:
+      - "80:80"
+    stdin_open: true
+    tty: true
+    depends_on:
+      - backend
+  
+  backend:
+    build: ./csa_backend
+    container_name: csa_backend
+    restart: always
+    ports:
+      - "3001:3001"
+
+networks:
+  csa_network:
+    driver: bridge

@@ -1,0 +1,1082 @@
+{
+    "INFR11095": {
+        "course_name": "Case Studies in Design Informatics 2",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11095.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11097": {
+        "course_name": "Masters Dissertation (Design Informatics)",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11097.htm",
+        "credits": 60,
+        "semester": "Flexible",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11136": {
+        "course_name": "Informatics Research Review",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11136.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11077": {
+        "course_name": "MSc Dissertation (Informatics)",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11077.htm",
+        "credits": 60,
+        "semester": "Block 5 (Sem 2) and beyond",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11198": {
+        "course_name": "Data-driven Business and Behaviour Analytics",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11198.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11205": {
+        "course_name": "Introductory Applied Machine Learning (Semester 2)",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11205.htm",
+        "credits": 20,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11216": {
+        "course_name": "Research Methods in Financial Computing",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11216.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "CMSE11515": {
+        "course_name": "Innovation-driven Entrepreneurship-Data Science, Technology and Innovation",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxcmse11515.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "CMSE11536": {
+        "course_name": "Digital Business: Competing in the Age of Platforms",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxcmse11536.htm",
+        "credits": 10,
+        "semester": "Block 4 (Sem 2)",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "CMSE11537": {
+        "course_name": "Digital Business: Transforming Organisations in the Digital Era",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxcmse11537.htm",
+        "credits": 10,
+        "semester": "Block 3 (Sem 2)",
+        "note": {
+            "message": "Before making your course choices make sure you have discussed them with your Student Adviser",
+            "url": "https://www.google.com"
+        }
+    },
+    "CMSE11549": {
+        "course_name": "Managing Innovation in Context",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxcmse11549.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "CMSE11576": {
+        "course_name": "Technology Entrepreneurship and Commercialisation",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxcmse11576.htm",
+        "credits": 10,
+        "semester": "Block 4 (Sem 2)",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11020": {
+        "course_name": "Algorithmic Game Theory and its Applications",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11020.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "Before making your course choices make sure you have discussed them with your Student Adviser",
+            "url": "https://www.google.com"
+        }
+    },
+    "INFR11088": {
+        "course_name": "Extreme Computing",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11088.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11144": {
+        "course_name": "Blockchains and Distributed Ledgers",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11144.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11145": {
+        "course_name": "Text Technologies for Data Science",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11145.htm",
+        "credits": 20,
+        "semester": "Full Year",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11161": {
+        "course_name": "Natural Computing",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11161.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11174": {
+        "course_name": "Numerical Algorithms for High Performance Computing",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11174.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11179": {
+        "course_name": "Design and Analysis of Parallel Algorithms",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11179.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11206": {
+        "course_name": "Case Studies in AI Ethics (CSAI)",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11206.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH10003": {
+        "course_name": "Financial Mathematics",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath10003.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11088": {
+        "course_name": "Finance, Risk and Uncertainty",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11088.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11111": {
+        "course_name": "Fundamentals of Optimization",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11111.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11147": {
+        "course_name": "Large Scale Optimization for Data Science",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11147.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11148": {
+        "course_name": "Credit Scoring",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11148.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11153": {
+        "course_name": "Discrete-Time Finance",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11153.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11147": {
+        "course_name": "Informatics Project Proposal",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11147.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR10054": {
+        "course_name": "Computational Cognitive Science",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr10054.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11010": {
+        "course_name": "Reinforcement Learning",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11010.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11033": {
+        "course_name": "Automatic Speech Recognition",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11033.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11125": {
+        "course_name": "Accelerated Natural Language Processing",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11125.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11129": {
+        "course_name": "Formal Verification",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11129.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11130": {
+        "course_name": "Machine Learning and Pattern Recognition",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11130.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11132": {
+        "course_name": "Machine Learning Practical",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11132.htm",
+        "credits": 20,
+        "semester": "Full Year",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11134": {
+        "course_name": "Probabilistic Modelling and Reasoning",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11134.htm",
+        "credits": 20,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11140": {
+        "course_name": "Image and Vision Computing",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11140.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11157": {
+        "course_name": "Natural Language Understanding, Generation, and Machine Translation",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11157.htm",
+        "credits": 20,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11160": {
+        "course_name": "Bioinformatics 1",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11160.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11202": {
+        "course_name": "Machine Learning Theory",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11202.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11207": {
+        "course_name": "Methods for Causal Inference",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11207.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11209": {
+        "course_name": "Computational Neuroscience",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11209.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11211": {
+        "course_name": "Applied Machine Learning",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11211.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11213": {
+        "course_name": "Advanced Robotics",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11213.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11215": {
+        "course_name": "Knowledge Graphs",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11215.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11241": {
+        "course_name": "Computer Graphics: Geometry and Simulation",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11241.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11246": {
+        "course_name": "Computer Graphics: Rendering",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11246.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11177": {
+        "course_name": "Programming Skills",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11177.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "LASC11096": {
+        "course_name": "Computer Programming for Speech and Language Processing",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxlasc11096.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "DESI11100": {
+        "course_name": "Data Science for Design",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxdesi11100.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11017": {
+        "course_name": "Human-Computer Interaction (Level 11)",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11017.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11023": {
+        "course_name": "Parallel Programming Languages and Systems (Level 11)",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11023.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11094": {
+        "course_name": "Case Studies in Design Informatics 1",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11094.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11098": {
+        "course_name": "Secure Programming",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11098.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11099": {
+        "course_name": "Introduction to Quantum Computing",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11099.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11114": {
+        "course_name": "Types and Semantics for Programming Languages",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11114.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11131": {
+        "course_name": "Introduction to Modern Cryptography",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11131.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11150": {
+        "course_name": "Principles and Design of IoT Systems",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11150.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11158": {
+        "course_name": "Usable Security and Privacy",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11158.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11187": {
+        "course_name": "Quantum Cyber Security",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11187.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11199": {
+        "course_name": "Advanced Database Systems",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11199.htm",
+        "credits": 20,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11200": {
+        "course_name": "Foundations of Databases",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11200.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11201": {
+        "course_name": "Randomized Algorithms",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11201.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11208": {
+        "course_name": "Security Engineering",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11208.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11210": {
+        "course_name": "Seminar in Cognitive Modelling",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11210.htm",
+        "credits": 20,
+        "semester": "Full Year",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11214": {
+        "course_name": "Standards Compliant Software Development",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11214.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11242": {
+        "course_name": "Introduction to Quantum Programming and Semantics",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11242.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11244": {
+        "course_name": "Computer Security (Level 11)",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11244.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11245": {
+        "course_name": "Applied Cloud Programming",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11245.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "LASC11062": {
+        "course_name": "Speech Synthesis",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxlasc11062.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "LASC11113": {
+        "course_name": "Simulating Language",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxlasc11113.htm",
+        "credits": 20,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "LASC11158": {
+        "course_name": "Speech Processing",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxlasc11158.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11172": {
+        "course_name": "Software Development",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11172.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11248": {
+        "course_name": "Modelling Concurrent Systems (Level 11)",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11248.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11240": {
+        "course_name": "Privacy and Security with Machine Learning",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11240.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "PGSP11162": {
+        "course_name": "International Security",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxpgsp11162.htm",
+        "credits": 20,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "PGSP11467": {
+        "course_name": "Controversies in the Data Society",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxpgsp11467.htm",
+        "credits": 20,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH10095": {
+        "course_name": "Statistical Methodology",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath10095.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH10096": {
+        "course_name": "Applied Statistics",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath10096.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11131": {
+        "course_name": "Time Series",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11131.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11175": {
+        "course_name": "Bayesian Data Analysis",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11175.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11176": {
+        "course_name": "Statistical Programming",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11176.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11177": {
+        "course_name": "Bayesian Theory",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11177.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11185": {
+        "course_name": "Incomplete Data Analysis",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11185.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11187": {
+        "course_name": "Generalised Regression Models",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11187.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11192": {
+        "course_name": "Integer and Combinatorial Optimization",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11192.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11238": {
+        "course_name": "Targeted Causal Learning",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11238.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR10052": {
+        "course_name": "Algorithms and Data Structures",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr10052.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR10080": {
+        "course_name": "Introduction to Databases",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr10080.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11176": {
+        "course_name": "Fundamentals of Data Management",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11176.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "MATH11158": {
+        "course_name": "Optimization Methods in Finance",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath11158.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "DESI11025": {
+        "course_name": "Design with Data",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxdesi11025.htm",
+        "credits": 20,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "DESI11073": {
+        "course_name": "Histories and Futures of Technology",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxdesi11073.htm",
+        "credits": 20,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11002": {
+        "course_name": "Message-Passing Programming",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11002.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11003": {
+        "course_name": "Threaded Programming",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11003.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11001": {
+        "course_name": "Practical Software Development",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11001.htm",
+        "credits": 20,
+        "semester": "Full Year",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11008": {
+        "course_name": "Project Preparation",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11008.htm",
+        "credits": 10,
+        "semester": "Full Year",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11004": {
+        "course_name": "HPC Architectures",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11004.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11166": {
+        "course_name": "Dissertation (High Performance Computing)",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11166.htm",
+        "credits": 60,
+        "semester": "Block 5 (Sem 2) and beyond",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11006": {
+        "course_name": "Numerical Algorithms for High Performance Computing",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11006.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11007": {
+        "course_name": "Design and Analysis of Parallel Algorithms",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11007.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11009": {
+        "course_name": "Performance Programming",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11009.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11010": {
+        "course_name": "Parallel Design Patterns",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11010.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11011": {
+        "course_name": "Advanced Parallel Techniques",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11011.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11012": {
+        "course_name": "Advanced Message-Passing Programming",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11012.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11005": {
+        "course_name": "Fundamentals of Data Management",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11005.htm",
+        "credits": 10,
+        "semester": "Semester 1",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11013": {
+        "course_name": "Machine Learning at Scale",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11013.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "EPCC11014": {
+        "course_name": "High Performance Data Analytics",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxepcc11014.htm",
+        "credits": 10,
+        "semester": "Semester 2",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    },
+    "INFR11164": {
+        "course_name": "Dissertation (HPC with Data Science)",
+        "url": "http://www.drps.ed.ac.uk/23-24/dpt/cxinfr11164.htm",
+        "credits": 60,
+        "semester": "Block 5 (Sem 2) and beyond",
+        "note": {
+            "message": "",
+            "url": ""
+        }
+    }
+}

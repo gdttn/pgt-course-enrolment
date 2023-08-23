@@ -1,0 +1,113 @@
+{
+    "course_name": "Artificial Intelligence (MSc) (Full-time)",
+    "course_code": "PTMSCAINTL1F",
+    "year": "2023/24",
+    "diet_note": "Before making your course choices make sure you have discussed them with your Student Adviser, or someone in your student support team.\n\nNOTE: This programme is available to study part-time. Part-time students must complete the same requirements as full-time students over two academic years with the following rules: Informatics Research Review INFR11136 (IRR) must be completed in Year 1, and Informatics Project Proposal INFR11147 (IPP) must be completed during Year 2. The dissertation will be completed in Block 5+ of Year 2 after progression to the dissertation stage has been confirmed by the Board of Examiners.",
+    "compulsory_courses": {
+        "1": "INFR11077",
+        "2": "INFR11136",
+        "3": "INFR11147"
+    },
+    "compulsory_courses_total_credit": 80,
+    "optional_courses_total_credit": 100,
+    "optional_courses": {
+        "1": {
+            "course_type": "Informatics MSc AI and Cognitive Science Courses",
+            "course_note": "These are Level 11 AI courses and Cognitive Science courses open to taught postgraduate students.",
+            "credit_range": {
+                "min_credit": 60,
+                "max_credit": 100
+            },
+            "courses": {
+                "1": "INFR10054",
+                "2": "INFR11010",
+                "3": "INFR11020",
+                "4": "INFR11033",
+                "5": "INFR11125",
+                "6": "INFR11129",
+                "7": "INFR11130",
+                "8": "INFR11132",
+                "9": "INFR11134",
+                "10": "INFR11140",
+                "11": "INFR11145",
+                "12": "INFR11157",
+                "13": "INFR11160",
+                "14": "INFR11161",
+                "15": "INFR11202",
+                "16": "INFR11206",
+                "17": "INFR11207",
+                "18": "INFR11209",
+                "19": "INFR11211",
+                "20": "INFR11213",
+                "21": "INFR11215",
+                "22": "INFR11241",
+                "23": "INFR11246"
+            }
+        },
+        "2": {
+            "course_type": "Informatics and PPLS MSc Programming Courses",
+            "course_note": "These are programming courses at Level 11 open to taught postgraduate students. Note that enrolment in some of these courses may be subject to quotas.",
+            "credit_range": {
+                "min_credit": 0,
+                "max_credit": 10
+            },
+            "courses": {
+                "1": "INFR11177",
+                "2": "LASC11096"
+            }
+        },
+        "3": {
+            "course_type": "Informatics MSc Non-AI Courses",
+            "course_note": "These are other level 11 Informatics courses open to postgraduate students.",
+            "credit_range": {
+                "min_credit": 0,
+                "max_credit": 40
+            },
+            "courses": {
+                "1": "DESI11100",
+                "2": "INFR11017",
+                "3": "INFR11023",
+                "4": "INFR11088",
+                "5": "INFR11094",
+                "6": "INFR11098",
+                "7": "INFR11099",
+                "8": "INFR11114",
+                "9": "INFR11131",
+                "10": "INFR11144",
+                "11": "INFR11150",
+                "12": "INFR11158",
+                "13": "INFR11187",
+                "14": "INFR11198",
+                "15": "INFR11199",
+                "16": "INFR11200",
+                "17": "INFR11201",
+                "18": "INFR11205",
+                "19": "INFR11208",
+                "20": "INFR11210",
+                "21": "INFR11214",
+                "22": "INFR11216",
+                "23": "INFR11242",
+                "24": "INFR11244",
+                "25": "INFR11245"
+            }
+        }
+    },
+    "optional_courses_levls": {
+        "1": {
+            "course_type": "Level 10 courses in Schedules O and P",
+            "course_note": "These are Informatics and Maths courses at level 10 open to postgraduate students.",
+            "credit_range": {
+                "min_credit": 0,
+                "max_credit": 20
+            }
+        },
+        "2": {
+            "course_type": "Level 11 courses in Schedules A to Q, T and W",
+            "course_note": "These are courses in all Schools other than Medicine, Veterinary Studies, the Centre for Open Learning, or the Edinburgh Futures Institute. Note this includes courses within the School of Informatics.  Students may not register for introductory programming courses in other parts of the University unless explicitly listed in the DPT.",
+            "credit_range": {
+                "min_credit": 0,
+                "max_credit": 20
+            }
+        }
+    }
+}

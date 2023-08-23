@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Advanced Technology for Financial Computing (MSc) - 1 Year (Full-Time)",
+    "value": "PTMSCADTFC1F"
+  },
+  {
+    "label": "Artificial Intelligence (MSc) (Full-time)",
+    "value": "PTMSCAINTL1F"
+  },
+  {
+    "label": "Computer Science (MSc) (Full-time)",
+    "value": "PTMSCCMPSI1F"
+  },
+  {
+    "label": "Cognitive Science (MSc) (Full-time)",
+    "value": "PTMSCCOGSC1F"
+  },
+  {
+    "label": "Cyber Security, Privacy and Trust (MSc) - 1 Year (Full-time)",
+    "value": "PTMSCCSPTR1F"
+  },
+  {
+    "label": "Data Science (MSc) (Full-time)",
+    "value": "PTMSCDATSC1F"
+  },
+  {
+    "label": "Design Informatics (MSc) (Full-time)",
+    "value": "PTMSCDESIN1F"
+  },
+  {
+    "label": "High Performance Computing with Data Science (MSc) (Full-time)",
+    "value": "PTMSCHPCDS1F"
+  },
+  {
+    "label": "High Performance Computing (MSc) (Full-time)",
+    "value": "PTMSCHPCMP1F"
+  }
+]

@@ -1,0 +1,92 @@
+{
+    "course_name": "Data Science (MSc) (Full-time)",
+    "course_code": "PTMSCDATSC1F",
+    "year": "2023/24",
+    "diet_note": "Before making your course choices make sure you have discussed them with your Student Adviser, or someone in your student support team.\n\nNOTE: This programme is available to study part-time. Part-time students must complete the same requirements as full-time students over two academic years with the following rules: Informatics Research Review INFR11136 (IRR) must be completed in Year 1, and Informatics Project Proposal INFR11147 (IPP) must be completed during Year 2. The dissertation will be completed in Block 5+ of Year 2 after progression to the dissertation stage has been confirmed by the Board of Examiners.",
+    "compulsory_courses": {
+        "1": "INFR11077",
+        "2": "INFR11136",
+        "3": "INFR11147"
+    },
+    "compulsory_courses_total_credit": 80,
+    "optional_courses_total_credit": 100,
+    "optional_courses": {
+        "1": {
+            "course_type": "Informatics MSc DS Level 10-11 Machine Learning and Statistics Courses",
+            "course_note": "These are courses in Machine Learning, Statistics, and Optimization open to taught postgraduate students.",
+            "credit_range": {
+                "min_credit": 10,
+                "max_credit": 60
+            },
+            "courses": {
+                "1": "INFR11010",
+                "2": "INFR11130",
+                "3": "INFR11132",
+                "4": "INFR11134",
+                "5": "INFR11161",
+                "6": "INFR11202",
+                "7": "INFR11211",
+                "8": "MATH10095",
+                "9": "MATH10096",
+                "10": "MATH11111",
+                "11": "MATH11131",
+                "12": "MATH11147",
+                "13": "MATH11175",
+                "14": "MATH11176",
+                "15": "MATH11177",
+                "16": "MATH11185",
+                "17": "MATH11187",
+                "18": "MATH11192",
+                "19": "MATH11238"
+            }
+        },
+        "2": {
+            "course_type": "Informatics MSc DS Level 10-11 Data Management Courses",
+            "course_note": "These are courses in Databases and Data Management Systems open to taught postgraduate students.",
+            "credit_range": {
+                "min_credit": 10,
+                "max_credit": 60
+            },
+            "courses": {
+                "1": "INFR10052",
+                "2": "INFR10080",
+                "3": "INFR11088",
+                "4": "INFR11176",
+                "5": "INFR11199",
+                "6": "INFR11200",
+                "7": "INFR11215"
+            }
+        },
+        "3": {
+            "course_type": "Informatics MSc DS Level 11 Applications Courses",
+            "course_note": "These are courses in Unstructured Data and Applications open to taught postgraduate students.",
+            "credit_range": {
+                "min_credit": 10,
+                "max_credit": 60
+            },
+            "courses": {
+                "1": "INFR11033",
+                "2": "INFR11125",
+                "3": "INFR11140",
+                "4": "INFR11145",
+                "5": "INFR11157",
+                "6": "INFR11160",
+                "7": "INFR11198",
+                "8": "INFR11206",
+                "9": "INFR11207",
+                "10": "LASC11062",
+                "11": "MATH11158"
+            }
+        }
+    },
+    "optional_courses_levls": {
+        "1": {
+            "course_type": "Level 10 and 11 courses in Schedules A to Q, T and W",
+            "course_note": "These are courses in all Schools other than Medicine, Veterinary Studies, the Centre for Open Learning, or the Edinburgh Futures Institute. Note this includes courses within the School of Informatics.  Students may not register for introductory programming courses in other parts of the University unless explicitly listed in the DPT.",
+            "credit_range": {
+                "min_credit": 0,
+                "max_credit": 20
+            }
+        }
+    }
+}
