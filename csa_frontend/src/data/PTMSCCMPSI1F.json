@@ -1,8 +1,8 @@
 {
     "course_name": "Computer Science (MSc) (Full-time)",
     "course_code": "PTMSCCMPSI1F",
-    "year": "2023/24",
-    "diet_note": "Before making your course choices make sure you have discussed them with your Student Adviser, or someone in your student support team.\n\nNOTE: This programme is available to study part-time. Part-time students must complete the same requirements as full-time students over two academic years with the following rules: Informatics Research Review INFR11136 (IRR) must be completed in Year 1, and Informatics Project Proposal INFR11147 (IPP) must be completed during Year 2. The dissertation will be completed in Block 5+ of Year 2 after progression to the dissertation stage has been confirmed by the Board of Examiners.",
+    "year": "2024/25",
+    "diet_note": "Before making your course choices make sure you have discussed them with your Student Adviser, or someone in your student support team.",
     "compulsory_courses": {
         "1": "INFR11077",
         "2": "INFR11136",
@@ -21,32 +21,27 @@
             "courses": {
                 "1": "INFR11017",
                 "2": "INFR11020",
-                "3": "INFR11023",
-                "4": "INFR11088",
+                "3": "INFR11022",
+                "4": "INFR11023",
                 "5": "INFR11094",
                 "6": "INFR11098",
-                "7": "INFR11099",
-                "8": "INFR11114",
-                "9": "INFR11129",
-                "10": "INFR11131",
-                "11": "INFR11144",
-                "12": "INFR11145",
-                "13": "INFR11150",
-                "14": "INFR11158",
-                "15": "INFR11161",
-                "16": "INFR11172",
-                "17": "INFR11187",
-                "18": "INFR11199",
-                "19": "INFR11200",
-                "20": "INFR11201",
-                "21": "INFR11202",
-                "22": "INFR11208",
-                "23": "INFR11214",
-                "24": "INFR11241",
-                "25": "INFR11242",
-                "26": "INFR11245",
-                "27": "INFR11246",
-                "28": "INFR11248"
+                "7": "INFR11114",
+                "8": "INFR11129",
+                "9": "INFR11131",
+                "10": "INFR11144",
+                "11": "INFR11145",
+                "12": "INFR11150",
+                "13": "INFR11158",
+                "14": "INFR11187",
+                "15": "INFR11199",
+                "16": "INFR11202",
+                "17": "INFR11241",
+                "18": "INFR11242",
+                "19": "INFR11245",
+                "20": "INFR11246",
+                "21": "INFR11248",
+                "22": "INFR11256",
+                "23": "INFR11269"
             }
         },
         "2": {
@@ -57,7 +52,7 @@
                 "max_credit": 10
             },
             "courses": {
-                "1": "INFR11177"
+                "1": "EPCC11017"
             }
         },
         "3": {
@@ -68,26 +63,19 @@
                 "max_credit": 40
             },
             "courses": {
-                "1": "DESI11100",
-                "2": "INFR11010",
-                "3": "INFR11033",
+                "1": "INFR11010",
+                "2": "INFR11033",
+                "3": "INFR11036",
                 "4": "INFR11125",
                 "5": "INFR11130",
                 "6": "INFR11132",
-                "7": "INFR11134",
-                "8": "INFR11140",
-                "9": "INFR11157",
-                "10": "INFR11160",
-                "11": "INFR11198",
-                "12": "INFR11205",
-                "13": "INFR11206",
-                "14": "INFR11207",
-                "15": "INFR11209",
-                "16": "INFR11210",
-                "17": "INFR11211",
-                "18": "INFR11215",
-                "19": "INFR11216",
-                "20": "INFR11244"
+                "7": "INFR11157",
+                "8": "INFR11206",
+                "9": "INFR11207",
+                "10": "INFR11209",
+                "11": "INFR11211",
+                "12": "INFR11254",
+                "13": "INFR11255"
             }
         }
     },

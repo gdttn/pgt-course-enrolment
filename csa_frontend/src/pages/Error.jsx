@@ -5,7 +5,7 @@ const Error = () => {
     <div className="flex flex-col">
       <div className="text-5xl">Error!</div>
       <div className="text-lg">
-        We are sorry. Please <u>re-submit</u> your information.
+        We are sorry. Please <u>resubmit</u> your information.
       </div>
     </div>
   );

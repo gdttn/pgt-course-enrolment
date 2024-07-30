@@ -71,8 +71,8 @@ app.post("/send", (req, res) => {
       tempObj[i] = {
         student_name: i == 0 ? data["student_name"] : "",
         uun: i == 0 ? data["uun"] : "",
-        course_name: i == 0 ? data["course_name"] : "",
-        course_year: i == 0 ? data["course_year"] : "",
+        programme_name:
+          i == 0 ? data["course_name"] + " " + data["course_year"] : "",
         compulsory_courses: compCourses[i] || "",
         selected_courses: ct[i] || "",
       };
@@ -81,22 +81,32 @@ app.post("/send", (req, res) => {
     const fields = [
       "student_name",
       "uun",
-      "course_name",
-      "course_year",
+      "programme_name",
       "compulsory_courses",
       "selected_courses",
     ];
 
-    const csv = parser.parse(tempObj, { fields }, (includeEmptyRows = true));
+    let csv = parser.parse(tempObj, { fields }, (includeEmptyRows = true));
+
+    // drop the header of the csv
+    // csv = csv.split("\n").slice(1).join("\n");
 
     // convert file name
     let degree = data["course_name"].replace(/\s/g, "_");
 
+    // clean data
+    let teData = {
+      student_name: data["student_name"],
+      uun: data["uun"],
+      programme_name: data["course_name"] + " " + data["course_year"],
+      compulsory_courses: data["compulsory_courses"],
+      selected_courses: data["selected_courses"],
+    };
+
     if (
       data["student_name"] != "" &&
       data["uun"] != "" &&
-      data["course_name"] != "" &&
-      data["course_year"] != "" &&
+      data["programme_name"] != "" &&
       data["compulsory_courses"] != {} &&
       data["selected_courses"] != {}
     ) {
@@ -104,8 +114,8 @@ app.post("/send", (req, res) => {
         {
           from: "student@example.com",
           to: "dep@example.com",
-          subject: "New Form Submission",
-          text: JSON.stringify(data),
+          subject: `${data["course_name"]} ${data["course_year"]} | ${data["uun"]} | ${data["student_name"]}` ,
+          text: `raw_data: ${JSON.stringify(teData)}`,
           html: "<b>PFA</b>",
 
           //here is the magic

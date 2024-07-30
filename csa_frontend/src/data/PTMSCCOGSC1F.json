@@ -1,7 +1,7 @@
 {
     "course_name": "Cognitive Science (MSc) (Full-time)",
     "course_code": "PTMSCCOGSC1F",
-    "year": "2023/24",
+    "year": "2024/25",
     "diet_note": "Before making your course choices make sure you have discussed them with your Student Adviser, or someone in your student support team.\n\nNOTE: This programme is available to study part-time. Part-time students must complete the same requirements as full-time students over two academic years with the following rule: Informatics Project Proposal INFR11147 (IPP) must be completed during Year 2. The dissertation will be completed in Block 5+ of Year 2 after progression to the dissertation stage has been confirmed by the Board of Examiners.",
     "compulsory_courses": {
         "1": "INFR11077",
@@ -22,13 +22,14 @@
             "courses": {
                 "1": "INFR11017",
                 "2": "INFR11033",
-                "3": "INFR11094",
-                "4": "INFR11125",
-                "5": "INFR11157",
-                "6": "INFR11209",
-                "7": "LASC11062",
-                "8": "LASC11113",
-                "9": "LASC11158"
+                "3": "INFR11036",
+                "4": "INFR11094",
+                "5": "INFR11125",
+                "6": "INFR11157",
+                "7": "INFR11209",
+                "8": "LASC11062",
+                "9": "LASC11113",
+                "10": "LASC11158"
             }
         },
         "2": {
@@ -39,7 +40,7 @@
                 "max_credit": 10
             },
             "courses": {
-                "1": "INFR11177",
+                "1": "EPCC11017",
                 "2": "LASC11096"
             }
         },
@@ -51,16 +52,19 @@
                 "max_credit": 60
             },
             "courses": {
-                "1": "INFR11020",
-                "2": "INFR11129",
-                "3": "INFR11140",
-                "4": "INFR11145",
-                "5": "INFR11160",
-                "6": "INFR11161",
-                "7": "INFR11206",
-                "8": "INFR11215",
-                "9": "INFR11241",
-                "10": "INFR11246"
+                "1": "INFR10054",
+                "2": "INFR11020",
+                "3": "INFR11022",
+                "4": "INFR11033",
+                "5": "INFR11036",
+                "6": "INFR11125",
+                "7": "INFR11129",
+                "8": "INFR11145",
+                "9": "INFR11157",
+                "10": "INFR11206",
+                "11": "INFR11212",
+                "12": "INFR11241",
+                "13": "INFR11246"
             }
         },
         "4": {
@@ -74,10 +78,9 @@
                 "1": "INFR11010",
                 "2": "INFR11130",
                 "3": "INFR11132",
-                "4": "INFR11134",
-                "5": "INFR11202",
-                "6": "INFR11207",
-                "7": "INFR11211"
+                "4": "INFR11202",
+                "5": "INFR11207",
+                "6": "INFR11211"
             }
         },
         "5": {
@@ -88,31 +91,23 @@
                 "max_credit": 20
             },
             "courses": {
-                "1": "DESI11100",
-                "2": "INFR11017",
-                "3": "INFR11023",
-                "4": "INFR11088",
-                "5": "INFR11094",
-                "6": "INFR11098",
-                "7": "INFR11099",
-                "8": "INFR11114",
-                "9": "INFR11131",
-                "10": "INFR11144",
-                "11": "INFR11150",
-                "12": "INFR11158",
-                "13": "INFR11187",
-                "14": "INFR11198",
-                "15": "INFR11199",
-                "16": "INFR11200",
-                "17": "INFR11201",
-                "18": "INFR11205",
-                "19": "INFR11208",
-                "20": "INFR11210",
-                "21": "INFR11214",
-                "22": "INFR11216",
-                "23": "INFR11242",
-                "24": "INFR11244",
-                "25": "INFR11245"
+                "1": "INFR11017",
+                "2": "INFR11023",
+                "3": "INFR11094",
+                "4": "INFR11114",
+                "5": "INFR11131",
+                "6": "INFR11144",
+                "7": "INFR11150",
+                "8": "INFR11156",
+                "9": "INFR11158",
+                "10": "INFR11187",
+                "11": "INFR11199",
+                "12": "INFR11242",
+                "13": "INFR11245",
+                "14": "INFR11248",
+                "15": "INFR11254",
+                "16": "INFR11255",
+                "17": "INFR11269"
             }
         }
     },

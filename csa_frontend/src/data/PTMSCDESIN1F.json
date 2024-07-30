@@ -1,8 +1,8 @@
 {
     "course_name": "Design Informatics (MSc) (Full-time)",
     "course_code": "PTMSCDESIN1F",
-    "year": "2023/24",
-    "diet_note": "Before making your course choices, make sure you have discussed them with your Personal Tutor.",
+    "year": "2024/25",
+    "diet_note": "Before making your course choices make sure you have discussed them with your Student Adviser, or someone in your student support team.",
     "compulsory_courses": {
         "1": "INFR11094",
         "2": "DESI11025",
@@ -37,11 +37,8 @@
                 "1": "INFR11010",
                 "2": "INFR11033",
                 "3": "INFR11132",
-                "4": "INFR11140",
-                "5": "INFR11160",
-                "6": "INFR11208",
-                "7": "INFR11241",
-                "8": "INFR11246"
+                "4": "INFR11241",
+                "5": "INFR11246"
             }
         }
     },
