@@ -1,5 +1,9 @@
 [
   {
+    "label": "Advanced Technology for Financial Computing (MSc) - 1 Year (Full-Time)",
+    "value": "PTMSCADTFC1F"
+  },
+  {
     "label": "Artificial Intelligence (MSc) (Full-time)",
     "value": "PTMSCAINTL1F"
   },
@@ -22,13 +26,5 @@
   {
     "label": "Design Informatics (MSc) (Full-time)",
     "value": "PTMSCDESIN1F"
-  },
-  {
-    "label": "High Performance Computing with Data Science (MSc) (Full-time)",
-    "value": "PTMSCHPCDS1F"
-  },
-  {
-    "label": "High Performance Computing (MSc) (Full-time)",
-    "value": "PTMSCHPCMP1F"
   }
 ]

@@ -16,6 +16,10 @@ function App() {
           element={<Apply course={"PTMSCADTFC1F"} />}
         />
         <Route
+          path="PTMSCADTFC1F"
+          element={<Apply course={"PTMSCADTFC1F"} />}
+        />
+        <Route
           path="PTMSCAINTL1F"
           element={<Apply course={"PTMSCAINTL1F"} />}
         />
@@ -39,14 +43,7 @@ function App() {
           path="PTMSCDESIN1F"
           element={<Apply course={"PTMSCDESIN1F"} />}
         />
-        <Route
-          path="PTMSCHPCDS1F"
-          element={<Apply course={"PTMSCHPCDS1F"} />}
-        />
-        <Route
-          path="PTMSCHPCMP1F"
-          element={<Apply course={"PTMSCHPCMP1F"} />}
-        />
+
         <Route path="success" element={<Success />} />
         <Route path="error" element={<Error />} />
       </Routes>

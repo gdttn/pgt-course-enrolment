@@ -37,6 +37,20 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
+function sanitizeFileName(fileName) {
+  // Replace special characters with underscores
+  let sanitizedName = fileName.replace(/[^a-zA-Z0-9\s-]/g, '_');
+
+  // Remove leading/trailing whitespace and replace internal whitespace with underscores
+  sanitizedName = sanitizedName.trim().replace(/\s+/g, '_');
+
+  // Replace "-" with "_" for consistency
+  sanitizedName = sanitizedName.replace(/-/g, '_');
+
+  // Truncate the filename to 255 characters (a common filesystem limit)
+  return sanitizedName.slice(0, 255);
+}
+
 app.post("/send", (req, res) => {
   const data = req.body;
 
@@ -50,10 +64,11 @@ app.post("/send", (req, res) => {
     let ct = [];
     let samp = {};
     Object.entries(data["selected_courses"]).forEach(([key, value]) => {
-      optCourses[value["catagory"]] = value["courses"] || [];
+      // Replace commas with a special character
+      optCourses[value["catagory"].replaceAll(",", "\u2063")] = (value["courses"] || []).map(course => course.replaceAll(",", "\u2063"));
       for (const val of value["courses"]) {
-        samp[val] = value["catagory"];
-        ct.push(val);
+        samp[val.replaceAll(",", "\u2063")] = value["catagory"].replaceAll(",", "\u2063");
+        ct.push(val.replaceAll(",", "\u2063"));
       }
       rows_o += value["courses"].length;
     });
@@ -73,7 +88,7 @@ app.post("/send", (req, res) => {
         uun: i == 0 ? data["uun"] : "",
         programme_name:
           i == 0 ? data["course_name"] + " " + data["course_year"] : "",
-        compulsory_courses: compCourses[i] || "",
+        compulsory_courses: compCourses[i]?.replaceAll(",", "\u2063") || "",
         selected_courses: ct[i] || "",
       };
     }
@@ -88,11 +103,11 @@ app.post("/send", (req, res) => {
 
     let csv = parser.parse(tempObj, { fields }, (includeEmptyRows = true));
 
-    // drop the header of the csv
-    // csv = csv.split("\n").slice(1).join("\n");
+    // Replace the special character back with commas
+    csv = csv.replaceAll("\u2063", ",");
 
     // convert file name
-    let degree = data["course_name"].replace(/\s/g, "_");
+    let degree = sanitizeFileName(data["course_name"]) + "_" + data["uun"];
 
     // clean data
     let teData = {
@@ -114,14 +129,14 @@ app.post("/send", (req, res) => {
         {
           from: "student@example.com",
           to: "dep@example.com",
-          subject: `${data["course_name"]} ${data["course_year"]} | ${data["uun"]} | ${data["student_name"]}` ,
+          subject: `${data["course_name"]} ${data["course_year"]} | ${data["uun"]} | ${data["student_name"]}`,
           text: `raw_data: ${JSON.stringify(teData)}`,
           html: "<b>PFA</b>",
 
           //here is the magic
           attachments: [
             {
-              filename: `${degree}_${data["uun"]}.csv`,
+              filename: `${degree}.csv`,
               content: csv,
             },
           ],

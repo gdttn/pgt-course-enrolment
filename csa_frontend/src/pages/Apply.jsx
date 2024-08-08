@@ -564,7 +564,7 @@ const Apply = ({ course }) => {
         <div className="flex justify-between items-center pb-4">
           <div className="flex flex-col align-middle justify-center">
             <h2 className="font-extrabold sm:text-3xl text-darkBlue leading-tight pr-4">
-              Informatics Course Enrolment Form - 2023/24
+              Informatics Course Enrolment Form - 2024/25
             </h2>
             <h1 className="text-darkBlue  py-2 text-2xl font-bold">
               {data["course_name"]}
