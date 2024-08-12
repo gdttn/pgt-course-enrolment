@@ -7,7 +7,7 @@
 To get a local copy of the code, clone it using git:
 
 ```
-git clone https://github.com/dilinade/course-enrolment-app.git
+git clone -b <branch> https://github.com/gdttn/course-enrolment-app.git
 ```
 
 ### Backend Configuration and Running
