@@ -171,4 +171,21 @@ app.post("/send", (req, res) => {
   }
 });
 
-app.listen(port, () => console.log(`Express app running on port ${port}!`));
+const https = require("https");
+const fs = require("fs");
+
+// add our key (write env from config management)
+https
+  .createServer(
+    {
+      key: fs.readFileSync(dotenv.TLS_KEY),
+      cert: fs.readFileSync(dotenv.TLS_CERT),
+      ca: fs.readFileSync(dotenv.TLS_CA),
+    },
+    app
+  )
+  .listen(port, () => {
+    console.log(`Express app running on port ${port}!`)
+  });
+
+//app.listen(port, () => console.log(`Express app running on port ${port}!`));
