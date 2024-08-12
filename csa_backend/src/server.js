@@ -11,19 +11,24 @@ const dotenv = require("dotenv").config({
 // Express
 const express = require("express");
 const app = express();
-const port = 3001;
+const port = dotenv.PORT;
 
+// TODO: read this from .env
 app.use(
   cors({
-    origin: ["http://localhost:8080/", "http://localhost:8080"],
+    origin: [
+      "https://"+dotenv.HOSTNAME,
+      "http://localhost",
+      "http://localhost:8080",
+    ],
   })
 );
 
 app.options("*", cors());
 
 const transporter = nodemailer.createTransport({
-  host: "smtp.ethereal.email", //replace with smtp server
-  port: 587,
+  host: "", 
+  port: 25,
   auth: {
     user: dotenv.EMAIL,
     pass: dotenv.PASSWORD,
@@ -125,18 +130,21 @@ app.post("/send", (req, res) => {
       data["compulsory_courses"] != {} &&
       data["selected_courses"] != {}
     ) {
-      transporter.sendMail(
-        {
-          from: "student@example.com",
-          to: "dep@example.com",
-          subject: `${data["course_name"]} ${data["course_year"]} | ${data["uun"]} | ${data["student_name"]}`,
-          text: `raw_data: ${JSON.stringify(teData)}`,
-          html: "<b>PFA</b>",
+    // send mail with defined transport object
+    // todo, restore subject: `${data["course_name"]} ${data["course_year"]} | ${data["uun"]} | ${data["student_name"]}`,
+    transporter.sendMail(
+      {
+        from: "Course Enrolment <"+dotenv.MAIL_FROM+">",
+        to: dotenv.MAIL_TO,
+        cc: dotenv.MAIL_CC,
+        subject: "Informatics Course Enrolment Form Submission",
+        text: "Please find submission below, and also attached.\n------\n"+JSON.stringify(teData),
+        html: "<body>Please find attached.</body>",
 
           //here is the magic
           attachments: [
             {
-              filename: `${degree}.csv`,
+              filename: `${degree}_${data["uun"]}.csv`,
               content: csv,
             },
           ],
