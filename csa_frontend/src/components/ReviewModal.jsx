@@ -5,27 +5,43 @@ import axios from "axios";
 import LoadingSpinner from "./LoadingSpinner";
 import useOnClickOutside from "../hooks/useOnClickOutside";
 
+import Catalog from "../data/course_catalog.json";
+
 const ReviewModal = ({ responseData, modalToggle, programData }) => {
   const [loadingState, setLoadingState] = useState(false);
   const modRef = useRef();
   const navigate = useNavigate();
-  const B_URL = "http://csa_frontend:3001/send";
+  const B_URL = "http://localhost:3001/send";
 
   useOnClickOutside(modRef, () => modalToggle(false));
 
   async function sendEmail(jsonObj) {
+    let tempObj = jsonObj;
+
+    // Selected Coures
     Object.entries(jsonObj["selected_courses"]).map(([key, value]) => {
       let temp = jsonObj["selected_courses"][key] || [];
-      jsonObj["selected_courses"][key] = {
+      temp = temp.map((course) => {
+        return course + " - " + Catalog[course].course_name;
+      });
+
+      tempObj["selected_courses"][key] = {
         catagory: programData["optional_courses"][key]["course_type"],
         courses: temp,
       };
     });
 
+    // Compulsory Courses
+    tempObj["compulsory_courses"] = Object.entries(
+      jsonObj["compulsory_courses"]
+    ).map(([key, value]) => {
+      return value + " - " + Catalog[value].course_name;
+    });
+
     try {
       setLoadingState(true);
       await axios
-        .post(B_URL, jsonObj, {
+        .post(B_URL, tempObj, {
           headers: {
             "Content-Type": "application/json",
           },
@@ -87,6 +103,11 @@ const ReviewModal = ({ responseData, modalToggle, programData }) => {
                   <p className="text-m text-gray-700 py-1">
                     <span className=" font-bold">Total Credits :</span> 180{" "}
                   </p>
+                  {/* <p className="text-m text-gray-700 py-1">
+                    <span className=" font-bold">Another program status: </span>{" "}
+                    {responseData["another_program_status"]}
+                  </p> */}
+
                   <p className="text-m text-red-500 font-bold  py-1">
                     I herewith confirm that the selection is accurate and
                     correct.

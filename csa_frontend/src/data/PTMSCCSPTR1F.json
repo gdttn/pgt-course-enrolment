@@ -1,8 +1,8 @@
 {
     "course_name": "Cyber Security, Privacy and Trust (MSc) - 1 Year (Full-time)",
     "course_code": "PTMSCCSPTR1F",
-    "year": "2023/24",
-    "diet_note": "Before making your course choices make sure you have discussed them with your Student Adviser, or someone in your student support team.\n\nNOTE: This programme is available to study part-time. Part-time students must complete the same requirements as full-time students over two academic years with the following rules: Informatics Research Review INFR11136 (IRR) must be completed in Year 1, and Informatics Project Proposal INFR11147 (IPP) must be completed during Year 2. The dissertation will be completed in Block 5+ of Year 2 after progression to the dissertation stage has been confirmed by the Board of Examiners.",
+    "year": "2024/25",
+    "diet_note": "Before making your course choices make sure you have discussed them with your Student Adviser, or someone in your student support team.",
     "compulsory_courses": {
         "1": "INFR11077",
         "2": "INFR11147",
@@ -17,15 +17,15 @@
             "course_note": "",
             "credit_range": {
                 "min_credit": 40,
-                "max_credit": 80
+                "max_credit": 70
             },
             "courses": {
-                "1": "INFR11098",
-                "2": "INFR11131",
-                "3": "INFR11144",
-                "4": "INFR11158",
-                "5": "INFR11187",
-                "6": "INFR11208",
+                "1": "INFR11022",
+                "2": "INFR11098",
+                "3": "INFR11131",
+                "4": "INFR11144",
+                "5": "INFR11158",
+                "6": "INFR11187",
                 "7": "INFR11240"
             }
         },
@@ -38,8 +38,9 @@
             },
             "courses": {
                 "1": "INFR11206",
-                "2": "PGSP11162",
-                "3": "PGSP11467"
+                "2": "LAWS11231",
+                "3": "LAWS11396",
+                "4": "PGSP11162"
             }
         },
         "3": {
@@ -50,20 +51,18 @@
                 "max_credit": 40
             },
             "courses": {
-                "1": "INFR11017",
-                "2": "INFR11020",
-                "3": "INFR11088",
-                "4": "INFR11099",
-                "5": "INFR11129",
-                "6": "INFR11134",
-                "7": "INFR11150",
-                "8": "INFR11172",
-                "9": "INFR11199",
-                "10": "INFR11201",
-                "11": "INFR11202",
-                "12": "INFR11211",
-                "13": "INFR11214",
-                "14": "INFR11242"
+                "1": "EPCC11018",
+                "2": "INFR11017",
+                "3": "INFR11020",
+                "4": "INFR11129",
+                "5": "INFR11141",
+                "6": "INFR11150",
+                "7": "INFR11199",
+                "8": "INFR11202",
+                "9": "INFR11211",
+                "10": "INFR11242",
+                "11": "INFR11256",
+                "12": "INFR11269"
             }
         }
     },

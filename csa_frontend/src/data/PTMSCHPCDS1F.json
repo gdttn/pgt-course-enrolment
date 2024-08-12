@@ -1,8 +1,8 @@
 {
     "course_name": "High Performance Computing with Data Science (MSc) (Full-time)",
     "course_code": "PTMSCHPCDS1F",
-    "year": "2023/24",
-    "diet_note": "Students should meet with a member of the EPCC Student Support Team to discuss their course choices. The EPCC Student Support Team are able to provide guidance and support to students for course selections.\n\nAll optional course choices are subject to students meeting (and demonstrating that they meet/will meet) the prerequisite requirements of courses they wish to take. Course choices must be approved by a member of the EPCC Student Support Team (student.support@epcc.ed.ac.uk or your cohort lead/programme director).\n\nStudents are strongly recommended to balance their credit-load evenly between Semester 1 and Semester 2 (n.b. although EPCC11008 Project Preparation takes place over two Semesters the workload is almost entirely located within Semester 2). It would be very uncommon for the EPCC Student Support Team to approve an imbalanced creditload split: Semester 1's courses are very important for building a solid foundation in the core concepts underpinning the programmes and Semester 2's courses generally contain more advanced material building on those foundations.\n\nProgramme-specific progression requirements require students to pass (at the 50% level) at least three of the following courses: EPCC11002 - Message-passing Programming, EPCC11003 - Threaded Programming, EPCC11004 - HPC Architectures, EPCC11010 - Parallel Design Patterns, EPCC11012 - Advanced Message-passing Programming, EPCC11011 - Advanced Parallel Techniques.\n\nConcessions to the Degree Programme Table may be possible, e.g. to take a specific course not listed below due to specific interests, or removing a compulsory course where equivalent prior learning has been completed, and will be judged on a case-by-case basis. A concession to the DPT cannot be guaranteed in advance.",
+    "year": "2024/25",
+    "diet_note": "Students should meet with a member of the EPCC Student Support Team to discuss their course choices. The EPCC Student Support Team are able to provide guidance and support to students for course selections.\n\nAll optional course choices are subject to students meeting (and demonstrating that they meet/will meet) the prerequisite requirements of courses they wish to take. Course choices must be approved by a member of the EPCC Student Support Team (student.support@epcc.ed.ac.uk or your cohort lead/programme director).\n\nStudents are strongly recommended to balance their credit-load evenly between Semester 1 and Semester 2 (n.b. although EPCC11008 Project Preparation takes place over two Semesters the workload is almost entirely located within Semester 2). It would be very uncommon for the EPCC Student Support Team to approve an imbalanced creditload split: Semester 1's courses are very important for building a solid foundation in the core concepts underpinning the programmes and Semester 2's courses generally contain more advanced material building on those foundations.\n\nProgramme-specific progression requirements require students to pass (at the 50% level) at least three of the following courses: EPCC11002 - Message-passing Programming, EPCC11003 - Threaded Programming, EPCC11004 - HPC Architectures, EPCC11010 - Parallel Design Patterns, EPCC11012 - Advanced Message-passing Programming, EPCC11020 - Accelerated Systems: Principles and Practice.\n\nConcessions to the Degree Programme Table may be possible, e.g. to take a specific course not listed below due to specific interests, or removing a compulsory course where equivalent prior learning has been completed, and will be judged on a case-by-case basis. A concession to the DPT cannot be guaranteed in advance.",
     "compulsory_courses": {
         "1": "EPCC11002",
         "2": "EPCC11003",
@@ -10,7 +10,7 @@
         "4": "EPCC11008",
         "5": "EPCC11005",
         "6": "EPCC11014",
-        "7": "INFR11164"
+        "7": "EPCC11016"
     },
     "compulsory_courses_total_credit": 130,
     "optional_courses_total_credit": 50,
@@ -28,8 +28,9 @@
                 "3": "EPCC11007",
                 "4": "EPCC11009",
                 "5": "EPCC11010",
-                "6": "EPCC11011",
-                "7": "EPCC11012"
+                "6": "EPCC11012",
+                "7": "EPCC11019",
+                "8": "EPCC11020"
             }
         },
         "2": {

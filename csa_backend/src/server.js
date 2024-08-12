@@ -2,7 +2,11 @@ const nodemailer = require("nodemailer");
 const cors = require("cors");
 const parser = require("json2csv");
 const bodyParser = require("body-parser");
-require("dotenv").config({ path: "../.env" });
+const path = require("path");
+const dotenv = require("dotenv").config({
+  path: path.resolve(__dirname, "../.env"),
+  debug: true,
+}).parsed;
 
 // Express
 const express = require("express");
@@ -11,10 +15,7 @@ const port = 3001;
 
 app.use(
   cors({
-    origin: [
-      "http://localhost",
-      "http://localhost:8080",
-    ],
+    origin: ["http://localhost:8080/", "http://localhost:8080"],
   })
 );
 
@@ -24,8 +25,8 @@ const transporter = nodemailer.createTransport({
   host: "smtp.ethereal.email", //replace with smtp server
   port: 587,
   auth: {
-    user: process.env.EMAIL,
-    pass: process.env.PASSWORD,
+    user: dotenv.EMAIL,
+    pass: dotenv.PASSWORD,
   },
 });
 
@@ -33,15 +34,27 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => {
-  console.log(req);
   res.send("Hello World!");
 });
 
+function sanitizeFileName(fileName) {
+  // Replace special characters with underscores
+  let sanitizedName = fileName.replace(/[^a-zA-Z0-9\s-]/g, '_');
+
+  // Remove leading/trailing whitespace and replace internal whitespace with underscores
+  sanitizedName = sanitizedName.trim().replace(/\s+/g, '_');
+
+  // Replace "-" with "_" for consistency
+  sanitizedName = sanitizedName.replace(/-/g, '_');
+
+  // Truncate the filename to 255 characters (a common filesystem limit)
+  return sanitizedName.slice(0, 255);
+}
+
 app.post("/send", (req, res) => {
-  console.log(req);
   const data = req.body;
 
-  if (data != null) {
+  if (JSON.stringify(data) !== "{}") {
     const compCourses = Object.values(data["compulsory_courses"]);
 
     let optCourses = {};
@@ -51,10 +64,11 @@ app.post("/send", (req, res) => {
     let ct = [];
     let samp = {};
     Object.entries(data["selected_courses"]).forEach(([key, value]) => {
-      optCourses[value["catagory"]] = value["courses"] || [];
+      // Replace commas with a special character
+      optCourses[value["catagory"].replaceAll(",", "\u2063")] = (value["courses"] || []).map(course => course.replaceAll(",", "\u2063"));
       for (const val of value["courses"]) {
-        samp[val] = value["catagory"];
-        ct.push(val);
+        samp[val.replaceAll(",", "\u2063")] = value["catagory"].replaceAll(",", "\u2063");
+        ct.push(val.replaceAll(",", "\u2063"));
       }
       rows_o += value["courses"].length;
     });
@@ -67,16 +81,14 @@ app.post("/send", (req, res) => {
       rows = ncomp + (rows_o - ncomp);
     }
 
-    console.log(samp);
-
     let tempObj = [];
     for (let i = 0; i < rows; i++) {
       tempObj[i] = {
         student_name: i == 0 ? data["student_name"] : "",
         uun: i == 0 ? data["uun"] : "",
-        course_name: i == 0 ? data["course_name"] : "",
-        course_year: i == 0 ? data["course_year"] : "",
-        compulsory_courses: compCourses[i] || "",
+        programme_name:
+          i == 0 ? data["course_name"] + " " + data["course_year"] : "",
+        compulsory_courses: compCourses[i]?.replaceAll(",", "\u2063") || "",
         selected_courses: ct[i] || "",
       };
     }
@@ -84,48 +96,70 @@ app.post("/send", (req, res) => {
     const fields = [
       "student_name",
       "uun",
-      "course_name",
-      "course_year",
+      "programme_name",
       "compulsory_courses",
       "selected_courses",
     ];
 
-    const csv = parser.parse(tempObj, { fields }, (includeEmptyRows = true));
+    let csv = parser.parse(tempObj, { fields }, (includeEmptyRows = true));
+
+    // Replace the special character back with commas
+    csv = csv.replaceAll("\u2063", ",");
 
     // convert file name
-    let degree = data["course_name"].replace(/\s/g, "_");
+    let degree = sanitizeFileName(data["course_name"]) + "_" + data["uun"];
 
-    // send mail with defined transport object
-    transporter.sendMail(
-      {
-        from: "student@example.com",
-        to: "dep@example.com",
-        subject: "New Form Submission",
-        text: JSON.stringify(data),
-        html: "<b>PFA</b>",
+    // clean data
+    let teData = {
+      student_name: data["student_name"],
+      uun: data["uun"],
+      programme_name: data["course_name"] + " " + data["course_year"],
+      compulsory_courses: data["compulsory_courses"],
+      selected_courses: data["selected_courses"],
+    };
 
-        //here is the magic
-        attachments: [
-          {
-            filename: `${degree}_${data["uun"]}.csv`,
-            content: csv,
-          },
-        ],
-      },
-      (err, info) => {
-        if (err) {
-          console.log("Error occurred. " + err.message);
-          res.status(500).send(err.message);
-          // return process.exit(1);
+    if (
+      data["student_name"] != "" &&
+      data["uun"] != "" &&
+      data["programme_name"] != "" &&
+      data["compulsory_courses"] != {} &&
+      data["selected_courses"] != {}
+    ) {
+      transporter.sendMail(
+        {
+          from: "student@example.com",
+          to: "dep@example.com",
+          subject: `${data["course_name"]} ${data["course_year"]} | ${data["uun"]} | ${data["student_name"]}`,
+          text: `raw_data: ${JSON.stringify(teData)}`,
+          html: "<b>PFA</b>",
+
+          //here is the magic
+          attachments: [
+            {
+              filename: `${degree}.csv`,
+              content: csv,
+            },
+          ],
+        },
+        (err, info) => {
+          if (err) {
+            console.log("Error occurred: " + err.message);
+            res.status(500).send("Error occurred!");
+            // return process.exit(1);
+          } else {
+            console.log("Message sent: %s", info.messageId);
+
+            // Preview only available when sending through an Ethereal account
+            console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
+            res.status(200).send({ url: nodemailer.getTestMessageUrl(info) });
+          }
         }
-        console.log("Message sent: %s", info.messageId);
-        // Preview only available when sending through an Ethereal account
-        console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
-        res.status(200).send({ url: nodemailer.getTestMessageUrl(info) });
-      }
-    );
+      );
+    } else {
+      res.status(500).send("Empty fields");
+    }
   } else {
-    res.status(500).send("No data found");
+    res.status(500).send("Empty");
   }
 });
 

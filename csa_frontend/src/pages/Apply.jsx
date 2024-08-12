@@ -66,6 +66,7 @@ const Apply = ({ course }) => {
   }, [course]);
 
   useEffect(() => {
+ 
     setCompulsoryCourses(data["compulsory_courses"]);
     setOptionalCourses(data["optional_courses"]);
     data["optional_courses_total_credit"];
@@ -363,6 +364,13 @@ const Apply = ({ course }) => {
       return;
     }
 
+    // if (
+    //   document.querySelector('input[name="another_program"]:checked') == null
+    // ) {
+    //   toast.warn("Please select one of the options for another program status");
+    //   return;
+    // }
+
     setFinalDetails({
       student_name: name,
       uun: uun,
@@ -370,6 +378,7 @@ const Apply = ({ course }) => {
       course_year: data["year"],
       compulsory_courses: compulsoryCourses,
       selected_courses: selectedCourses,
+      another_program_status: false,
     });
     setShowModal(true);
   };
@@ -522,8 +531,8 @@ const Apply = ({ course }) => {
   };
 
   // ------------------ Render ------------------
-  if (compulsoryCourses == undefined || optionalCourses == undefined) {
-    return <div>Loading...</div>;
+  if (!Catalog || !data || !compulsoryCourses || !optionalCourses || Object.keys(data).length == 0 || compulsoryCourses.length == 0 || optionalCourses.length == 0) {
+      return <div>Loading...</div>;
   }
 
   return (
@@ -555,7 +564,7 @@ const Apply = ({ course }) => {
         <div className="flex justify-between items-center pb-4">
           <div className="flex flex-col align-middle justify-center">
             <h2 className="font-extrabold sm:text-3xl text-darkBlue leading-tight pr-4">
-              Informatics Course Enrolment Form - 2023/24
+              Informatics Course Enrolment Form - 2024/25
             </h2>
             <h1 className="text-darkBlue  py-2 text-2xl font-bold">
               {data["course_name"]}
@@ -727,13 +736,52 @@ const Apply = ({ course }) => {
                           )
                         )}
                       </div>
-                      <hr className="mt-7" />
+                      {/* <hr className="mt-7" /> */}
                     </div>
                   )
                 )}
               </div>
             </div>
           </div>
+
+          {/* <div className="flex my-5 rounded-t-lg p-1 bg-gray-100">
+            <div className="text-black mx-6">
+              <h3 className="pt-2 text-sm text-gray-700 font-bold">
+                Another Program Offer Status
+              </h3>
+              <p className="text-sm text-gray-700">
+                Do you have an offer from another program within the University
+                of Edinburgh?
+              </p>
+              <div className="flex my-2">
+                {" "}
+                <div>
+                  <input
+                    type="radio"
+                    id="yes"
+                    name="another_program"
+                    value="yes"
+                    required
+                  />
+                  <label className="text-sm text-gray-700" htmlFor="yes">
+                    Yes
+                  </label>
+                </div>
+                <div className="mx-5">
+                  <input
+                    type="radio"
+                    id="no"
+                    name="another_program"
+                    value="no"
+                    required
+                  />
+                  <label className="text-sm text-gray-700" htmlFor="no">
+                    No
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div> */}
 
           <div className="flex justify-center items-center my-5">
             <button
