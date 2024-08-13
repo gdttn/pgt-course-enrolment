@@ -18,6 +18,7 @@ app.use(
   cors({
     origin: [
       "https://"+dotenv.HOSTNAME,
+      "https://"+dotenv.HOSTNAME+":"+dotenv.PORT,
       "http://localhost",
       "http://localhost:8080",
     ],
