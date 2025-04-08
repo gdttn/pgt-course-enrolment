@@ -7,7 +7,7 @@
 To get a local copy of the code, clone it using git:
 
 ```
-git clone https://github.com/dilinade/course-enrolment-app.git
+git clone https://github.com/gdttn/course-enrolment-app.git
 ```
 
 ### Backend Configuration and Running
@@ -29,10 +29,10 @@ Before starting the backend, create a `.env` file with the following entries:
 ```
 USER_NAME=<username>
 EMAIL=<email@example.com>
-PASSWORD=<password>
+PASSWORD=<password> **(see below)**
 ```
 
-> **_NOTE:_** _You may need to create an account before proceeding. This example employs the use of the [Ethereal](https://ethereal.email/) Email fake SMTP service for testing email functionality. You might need to create an account on Ethereal Email before proceeding._
+> **_NOTE:_** _Local installation will likely involve local unauthenticated SMTP support of some sort. In contrast to upstream, no third party mailer will be required._
 
 In the `./src/server.js` file, add the URL of the fronend to CORS:
 
